@@ -52,14 +52,14 @@ const tools = computed<ToolCategory[]>(() => [
         <div v-if="styleStore.isSmallScreen" flex flex-col items-center>
           <locale-selector w="90%" />
 
-          <div flex justify-center>
+          <!-- <div flex justify-center>
             <NavbarButtons />
-          </div>
+          </div> -->
         </div>
 
         <CollapsibleToolMenu :tools-by-category="tools" />
 
-        <div class="footer">
+        <!-- <div class="footer">
           <div>
             IT-Tools
 
@@ -85,7 +85,7 @@ const tools = computed<ToolCategory[]>(() => [
               Corentin Thomasset
             </c-link>
           </div>
-        </div>
+        </div> -->
       </div>
     </template>
 
